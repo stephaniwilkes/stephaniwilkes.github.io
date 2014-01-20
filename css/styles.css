@@ -24,8 +24,7 @@ body {
 #header h1 {
 
 	font-size: 86px;
-	font-family: 'SoinSansPro-ThinOblique';src: url('webfonts/29A22E_0_0.eot');src: url('webfonts/29A22E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_0_0.woff') format('woff'),url('webfonts/29A22E_0_0.ttf') format('truetype'), Verdana;
-	text-align: left;
+	font-family: 'SoinSansPro-Thin';src: url('webfonts/29A22E_6_0.eot');src: url('webfonts/29A22E_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_6_0.woff') format('woff'),url('webfonts/29A22E_6_0.ttf') format('truetype');	text-align: left;
 	/* font-variant: small-caps; */
 }
 
@@ -33,7 +32,7 @@ body {
 
 	font-size: 20px;
 	font-family: 'SoinSansPro-Roman';src: url('webfonts/29A22E_3_0.eot');src: url('webfonts/29A22E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_3_0.woff') format('woff'),url('webfonts/29A22E_3_0.ttf') format('truetype'), Verdana;
-	margin: -25px 0px 0px 355px;
+	margin: -25px 0px 0px 350px;
 	color: gray;
 	text-align: left;
 
