@@ -1,11 +1,22 @@
 html {
 
-	position: relative;
 	background-image: url("../img/bg/tileable_wood_texture.png");
+	font-family: Verdana;
+}
+
+body {
+
+	margin: 10px 10px;
+
+}
+
+h1 {
+	
+
 }
 
 img {
 
-	border-radius: 15%;
+	border-radius: 18%;
 
 }
