@@ -1,8 +1,9 @@
 html {
 
 	background-image: url("../img/bg/tileable_wood_texture.png");
-	font-family: Verdana;
+
 }
+
 
 body {
 
@@ -10,13 +11,46 @@ body {
 
 }
 
-h1 {
+
+/*
+#header img {
 	
+	border-radius: 18%;
+	margin: 0px 10px 75px 0px;
+}
+*/
+
+
+#header h1 {
+
+	font-size: 86px;
+	font-family: 'SoinSansPro-ThinOblique';src: url('webfonts/29A22E_0_0.eot');src: url('webfonts/29A22E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_0_0.woff') format('woff'),url('webfonts/29A22E_0_0.ttf') format('truetype'), Verdana;
+	text-align: left;
+	/* font-variant: small-caps; */
+}
+
+#header h4 {
+
+	font-size: 20px;
+	font-family: 'SoinSansPro-Roman';src: url('webfonts/29A22E_3_0.eot');src: url('webfonts/29A22E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_3_0.woff') format('woff'),url('webfonts/29A22E_3_0.ttf') format('truetype'), Verdana;
+	margin: -25px 0px 0px 355px;
+	color: gray;
+	text-align: left;
 
 }
 
-img {
 
-	border-radius: 18%;
+#content h3 {
 
+	margin-top: 200px;
+	font-size: 28px;
+	font-family: 'SoinSansPro-Roman';src: url('webfonts/29A22E_3_0.eot');src: url('webfonts/29A22E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_3_0.woff') format('woff'),url('webfonts/29A22E_3_0.ttf') format('truetype'), Verdana;
+	font-variant: small-caps;
+
+}
+
+#content p {
+
+	font-size: 20px;
+	font-family: 'SoinSansPro-Roman';src: url('webfonts/29A22E_3_0.eot');src: url('webfonts/29A22E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_3_0.woff') format('woff'),url('webfonts/29A22E_3_0.ttf') format('truetype'), Verdana;
 }
