@@ -5,19 +5,22 @@ html {
 
 }
 
+
 html h3, p, q, a, ul {
 
 	font-family: 'SoinSansPro-Roman';src: url('webfonts/29A22E_3_0.eot');src: url('webfonts/29A22E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_3_0.woff') format('woff'),url('webfonts/29A22E_3_0.ttf') format('truetype');
 	font-size: 18px;
-	margin: 10px 0px 5px 284px;
 
 }
+
+
 html h3 {
 
 	font-family: 'SoinSansPro-Thin';src: url('webfonts/29A22E_6_0.eot');src: url('webfonts/29A22E_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_6_0.woff') format('woff'),url('webfonts/29A22E_6_0.ttf') format('truetype');	text-align: left;
 	font-size: 25px;
 
 }
+
 
 html p, q, a, ul {
 
@@ -27,11 +30,22 @@ html p, q, a, ul {
 }
 
 
+.container {
+
+	background-color: #EBECE4;
+}
+
+
+.about {
+
+	margin: 0px 0px;
+}
+
+
 .banner {
 
 	font-family: 'SoinSansPro-Thin';src: url('webfonts/29A22E_6_0.eot');src: url('webfonts/29A22E_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_6_0.woff') format('woff'),url('webfonts/29A22E_6_0.ttf') format('truetype');	text-align: left;
 	background-image: url("../img/bg/banner.png");
-	padding: 20px 20px 20px 30px;
 	color: #7AC5CD;
 
 }
@@ -62,13 +76,11 @@ html p, q, a, ul {
 .quote {
 
 	color: black;
-	margin: 90px 0px 0px 0px;
 }
 
 
 .links a{
 
-	margin: 10px 0px 5px 0px;
 	text-decoration: none;
 }
 
