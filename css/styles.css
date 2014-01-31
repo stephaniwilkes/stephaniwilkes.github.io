@@ -5,6 +5,13 @@ html {
 
 }
 
+html h3, p, q, a, ul {
+
+	font-family: 'SoinSansPro-Roman';src: url('webfonts/29A22E_3_0.eot');src: url('webfonts/29A22E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_3_0.woff') format('woff'),url('webfonts/29A22E_3_0.ttf') format('truetype');
+	font-size: 18px;
+	margin: 10px 0px 5px 284px;
+
+}
 html h3 {
 
 	font-family: 'SoinSansPro-Thin';src: url('webfonts/29A22E_6_0.eot');src: url('webfonts/29A22E_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_6_0.woff') format('woff'),url('webfonts/29A22E_6_0.ttf') format('truetype');	text-align: left;
@@ -25,6 +32,7 @@ html p, q, a, ul {
 	font-family: 'SoinSansPro-Thin';src: url('webfonts/29A22E_6_0.eot');src: url('webfonts/29A22E_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_6_0.woff') format('woff'),url('webfonts/29A22E_6_0.ttf') format('truetype');	text-align: left;
 	background-image: url("../img/bg/banner.png");
 	padding: 20px 20px 20px 30px;
+	color: #7AC5CD;
 
 }
 
@@ -32,7 +40,8 @@ html p, q, a, ul {
 .banner h1 {
 
 	font-size: 82px;
-	margin: 0px 0px -15px 0px ;
+	margin: 0px 0px -15px 0px;
+	text-shadow: 3px 2px 0px #53868B;
 }
 
 
@@ -40,6 +49,7 @@ html p, q, a, ul {
 
 	font-size: 31px;
 	margin: 0px 0px 0px 598px;
+	text-shadow: 2px 1px 0px #5F9EA0;
 }
 
 
@@ -48,14 +58,28 @@ html p, q, a, ul {
 	border-radius: 35px;
 }
 
-.links a {
 
-	text-decoration: none;
+.quote {
 
+	color: black;
+	margin: 90px 0px 0px 0px;
 }
 
-/*.quote {
 
-	margin: -140px 0px 0px 290px;
-	padding: 0px 0px 0px 0px;
-} */
+.links a{
+
+	margin: 10px 0px 5px 0px;
+	text-decoration: none;
+}
+
+a:hover {
+
+	color: #53868B;
+	text-decoration: none;
+}
+
+a:active {
+
+	color: #53868B;
+	text-decoration: none;
+}
