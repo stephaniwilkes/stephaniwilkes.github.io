@@ -33,6 +33,7 @@ html p, q, a, ul {
 .container {
 
 	background-color: #EBECE4;
+	padding: 5px 15px;
 }
 
 
@@ -47,6 +48,7 @@ html p, q, a, ul {
 	font-family: 'SoinSansPro-Thin';src: url('webfonts/29A22E_6_0.eot');src: url('webfonts/29A22E_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_6_0.woff') format('woff'),url('webfonts/29A22E_6_0.ttf') format('truetype');	text-align: left;
 	background-image: url("../img/bg/banner.png");
 	color: #7AC5CD;
+	padding: 5px 15px;
 
 }
 
