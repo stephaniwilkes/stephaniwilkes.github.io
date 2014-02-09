@@ -11,6 +11,7 @@ html h3, p, q, a, ul {
 	font-family: 'SoinSansPro-Roman';src: url('webfonts/29A22E_3_0.eot');src: url('webfonts/29A22E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_3_0.woff') format('woff'),url('webfonts/29A22E_3_0.ttf') format('truetype');
 	font-size: 18px;
 	letter-spacing: 1px;
+	font-weight: initial;
 
 }
 
