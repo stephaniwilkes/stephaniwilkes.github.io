@@ -20,7 +20,22 @@ html h3 {
 
 	font-family: 'SoinSansPro-Thin';src: url('webfonts/29A22E_6_0.eot');src: url('webfonts/29A22E_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_6_0.woff') format('woff'),url('webfonts/29A22E_6_0.ttf') format('truetype');	text-align: left;
 	font-size: 25px;
+
+}
+
+html h4, h5 {
+
+	font-family: 'SoinSansPro-Roman';src: url('webfonts/29A22E_3_0.eot');src: url('webfonts/29A22E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/29A22E_3_0.woff') format('woff'),url('webfonts/29A22E_3_0.ttf') format('truetype');
+	font-size: 20px;
 	letter-spacing: 1px;
+	margin: 10px 0px;
+
+}
+
+html h5 {
+
+	font-size: 16px;
+
 
 }
 
@@ -88,6 +103,17 @@ html p, q, a, ul {
 
 	list-style: none;
 }
+
+.education h4+p {
+
+	margin: 5px 0px;
+}
+
+.education p+p {
+
+	margin: 5px 0px 18px 0px;
+}
+
 
 .links a{
 
