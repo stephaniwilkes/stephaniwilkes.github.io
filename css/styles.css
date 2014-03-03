@@ -28,8 +28,13 @@ h5 {
   font-size: .85em;
 }
 
-
 p {
+  
+  color: #000000;
+  font-size: .8em;
+}
+
+q {
   
   color: #000000;
   font-size: .8em;
@@ -74,8 +79,19 @@ a:hover {
   height: 40px;
 }
 
+.banner img {
+
+	border-radius: 30%;
+}
+
+.banner h4 {
+
+	margin: -15px 0px 108px 0px;
+}
+
 nav ul {
 
+	margin: 0px;
 	padding: 15px 0px;
 }
 
@@ -91,11 +107,22 @@ nav li {
 
 }
 
-
 nav a {
 
 	color: #536C6C;
 	padding: 15px 30px 15px 0px;
 	margin: 15px 15px 15px 0px;
 
+}
+
+footer ul {
+
+	margin: 0px 300px 0px 455px;
+	padding: 0px;
+
+}
+
+footer li {
+
+	display: inline;
 }
