@@ -1,30 +1,38 @@
 body {
   
   background: #fff;
+  margin-left: 15px;
 }
 
 h1 {
   
   color: #FFCC38;
-  size: 1.3em;
+  font-size: 1.3em;
 }
 
 h2 {
   
   color: #000000;
-  size: .95em;
+  font-size: .95em;
 }
 
 h3 {
   
   color: #536C6C;
-  size: .95em;
+  font-size: .95em;
 }
+
+h5 {
+  
+  color: #000000;
+  font-size: .85em;
+}
+
 
 p {
   
-  color: #00000;
-  size: .8em;
+  color: #000000;
+  font-size: .8em;
 }
 
 a {
@@ -32,6 +40,13 @@ a {
   text-decoration: none;
   color: #000000;
 }
+
+li {
+  
+  color: #000000;
+  font-size: .8em;
+}
+
 
 a:hover {
   
@@ -66,6 +81,7 @@ nav ul {
 
 nav li {
 
+	font-size: 1em;
 	display: inline;
 	padding: 15px 0px;
 	margin: 15px 0px;
@@ -75,9 +91,11 @@ nav li {
 
 }
 
+
 nav a {
 
-	padding: 15px 15px 15px 0px;
-	margin: 15px 0px;
+	color: #536C6C;
+	padding: 15px 30px 15px 0px;
+	margin: 15px 15px 15px 0px;
 
 }
