@@ -1,48 +1,65 @@
 body {
   
-  background: #fff;
-  margin-left: 15px;
+  background: url("../img/bg/bg-1.png");
+  margin: 20px 20px;
+  width: 660px;
+  overflow: auto;
+
 }
 
 h1 {
   
   color: #FFCC38;
   font-size: 1.3em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #FFF;
 }
 
 h2 {
   
   color: #000000;
   font-size: .95em;
+  text-shadow: 1px 1px 0px #FFF;
+  margin: 40px 0px 10px 0px;
 }
 
 h3 {
   
   color: #FFCC38;
   font-size: .95em;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #FFF;
+  margin: 40px 0px 10px 0px;
 }
 
 h5 {
   
   color: #536C6C;
   font-size: .80em;
+  text-shadow: 1px 1px 0px #FFF;
+  margin: 20px 0px 10px 22px;
 }
 
 p {
   
   color: #000000;
   font-size: .8em;
+  text-shadow: 1px 1px 0px #FFF;
+  margin: 2.5px 0px 2.5px 22px;
 }
 
 q {
   
   color: #000000;
   font-size: .8em;
+  text-shadow: 1px 1px 0px #FFF;
+  margin: 2.5px 0px 2.5px 22px;
 }
 
 a {
   
   text-decoration: none;
+  text-shadow: 1px 1px 0px #FFF;
   color: #000000;
 }
 
@@ -50,12 +67,14 @@ li {
   
   color: #000000;
   font-size: .8em;
+  margin: 2.5px 0px;
 }
 
 
 a:hover {
   
   color: #FFCC38;
+  text-shadow: 1px 1px 0px #FFF;
 }
 
 .color-1 {
@@ -86,7 +105,8 @@ a:hover {
 
 .banner h4 {
 
-	margin: -15px 0px 91px 0px;
+	margin: -15px 0px 35px 0px;
+  text-transform: lowercase;
 }
 
 .quote  {
@@ -97,34 +117,29 @@ a:hover {
 
 nav ul {
 
-	margin: 0px;
+	margin: -15px;
 	padding: 15px 0px;
 }
 
 nav li {
 
-	font-size: 1em;
+  font-size: 1em;
 	display: inline;
-	padding: 15px 0px;
-	margin: 15px 0px;
-	text-align: left;
-	width: 15px;
-	height: 15px;
+  text-align: center;
 
 }
 
 nav a {
 
-	color: #536C6C;
-	padding: 15px 30px 15px 0px;
-	margin: 15px 15px 15px 0px;
+  color: #536C6C;
+  margin: 0px 15px;
 
 }
 
 footer ul {
 
-	margin: 0px 300px 0px 455px;
-	padding: 0px;
+  	margin: 0px 300px 0px 455px;
+  	padding: 0px;
 
 }
 
