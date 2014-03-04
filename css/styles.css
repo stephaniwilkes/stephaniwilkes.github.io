@@ -1,10 +1,7 @@
 body {
   
   background: url("../img/bg/bg-1.png");
-  margin: 20px 20px;
-  width: 660px;
-  overflow: auto;
-
+  margin: 50px;
 }
 
 h1 {
@@ -138,7 +135,6 @@ nav a {
 
 footer ul {
 
-  	margin: 0px 300px 0px 455px;
   	padding: 0px;
 
 }
