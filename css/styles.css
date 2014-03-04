@@ -1,3 +1,5 @@
+
+
 body {
   
   background: url("../img/bg/bg-1.png");
@@ -7,7 +9,8 @@ body {
 h1 {
   
   color: #FFCC38;
-  font-size: 1.3em;
+  font-size: 2em;
+  font-family: GloberHeavy;
   text-transform: uppercase;
   text-shadow: 1px 1px 0px #FFF;
 }
@@ -16,6 +19,7 @@ h2 {
   
   color: #000000;
   font-size: .95em;
+  font-family: GloberHeavy;
   text-shadow: 1px 1px 0px #FFF;
   margin: 40px 0px 10px 0px;
 }
@@ -24,6 +28,7 @@ h3 {
   
   color: #FFCC38;
   font-size: .95em;
+  font-family: GloberHeavy;
   text-transform: uppercase;
   text-shadow: 1px 1px 0px #FFF;
   margin: 40px 0px 10px 0px;
@@ -32,7 +37,8 @@ h3 {
 h5 {
   
   color: #536C6C;
-  font-size: .80em;
+  font-size: .8em;
+  font-family: GloberHeavy;
   text-shadow: 1px 1px 0px #FFF;
   margin: 20px 0px 10px 22px;
 }
@@ -41,6 +47,7 @@ p {
   
   color: #000000;
   font-size: .8em;
+  font-family: GloberBook;
   text-shadow: 1px 1px 0px #FFF;
   margin: 2.5px 0px 2.5px 22px;
 }
@@ -49,13 +56,15 @@ q {
   
   color: #000000;
   font-size: .8em;
+  font-family: GloberBook;
   text-shadow: 1px 1px 0px #FFF;
-  margin: 2.5px 0px 2.5px 22px;
+  margin: 2.5px 0px;
 }
 
 a {
   
   text-decoration: none;
+  font-family: GloberBook;
   text-shadow: 1px 1px 0px #FFF;
   color: #000000;
 }
@@ -64,6 +73,7 @@ li {
   
   color: #000000;
   font-size: .8em;
+  font-family: GloberBook;
   margin: 2.5px 0px;
 }
 
@@ -71,6 +81,7 @@ li {
 a:hover {
   
   color: #FFCC38;
+  font-family: GloberLight;
   text-shadow: 1px 1px 0px #FFF;
 }
 
@@ -100,43 +111,43 @@ a:hover {
 	border-radius: 30%;
 }
 
-.banner h4 {
+.banner h2 {
 
 	margin: -15px 0px 35px 0px;
   text-transform: lowercase;
 }
 
-.quote  {
-
-	margin: 0px 0px 10px 0px;
-  text-align: center;
-}
-
-.quote q {
-
-  text-align: center;
-}
-
 
 nav ul {
 
-	margin: -15px;
+	margin: -30px -15px 0px -15px;
 	padding: 15px 0px;
 }
 
 nav li {
 
   font-size: 1em;
+  font-family: GloberHeavy;
 	display: inline;
   text-align: center;
-
 }
 
 nav a {
 
   color: #536C6C;
   margin: 0px 15px;
+  text-transform: lowercase;
+}
 
+.quote h2 {
+
+  text-transform: uppercase;
+}
+
+.quote q {
+
+  font-style: italic;
+  text-transform: lowercase;
 }
 
 footer ul {
@@ -153,6 +164,7 @@ footer li {
 footer img {
 
   padding: 5px;
+  border-radius: 95%;
 }
 
 footer img:hover {
