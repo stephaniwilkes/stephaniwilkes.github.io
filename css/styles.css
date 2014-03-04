@@ -109,6 +109,12 @@ a:hover {
 .quote  {
 
 	margin: 0px 0px 10px 0px;
+  text-align: center;
+}
+
+.quote q {
+
+  text-align: center;
 }
 
 
@@ -135,11 +141,21 @@ nav a {
 
 footer ul {
 
-  	padding: 0px;
-
+  margin: 15px 0px 0px -15px;
+  padding: 15px 0px;
 }
 
 footer li {
 
 	display: inline;
+}
+
+footer img {
+
+  padding: 5px;
+}
+
+footer img:hover {
+
+  background: #FFCC38;
 }
