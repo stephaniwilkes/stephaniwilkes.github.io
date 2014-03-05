@@ -111,17 +111,11 @@ a:hover {
 	border-radius: 25%;
 }
 
-.banner h1 {
+.logo {
 
-    padding: 20px 0px 0px 0px;
+    margin: 5px 0px 0px 30px;
+    padding: 0px 0px 20px 0px;
 }
-
-.banner h2 {
-
-	margin: -15px 0px 35px 0px;
-  text-transform: lowercase;
-}
-
 
 nav ul {
 
@@ -164,6 +158,11 @@ footer ul {
 footer li {
 
 	display: inline;
+}
+
+footer h2 {
+
+  margin: -25px 0px 0px 140px;
 }
 
 footer img {
