@@ -2,76 +2,75 @@ body {
   
   background: url("../img/bg/bg-1.png");
   margin: 50px;
+  text-shadow: 1px 1px 0px #FFF;
+}
+
+h1, h2, h3, h5, nav li {
+
+  font-family: GloberHeavy;
+}
+
+h1, h3, .quote h2 {
+
+  color: #FFCC38;
+  text-transform: uppercase;
+}
+
+h2, h3, h5, nav li {
+  
+  font-size: .95em;
+  font-family: GloberHeavy;
+}
+
+h2, p, q, a, li {
+
+  color: #000000;
+}
+
+h5, p, q, a, li {
+
+  font-size: .8em;
+}
+
+h5, nav a {
+
+  color: #536C6C;
+}
+
+p, q, a, li {
+
+  font-family: GloberBook;
+}
+
+nav a, .quote q {
+
+  text-transform: lowercase;
 }
 
 h1 {
   
-  color: #FFCC38;
   font-size: 2em;
-  font-family: GloberHeavy;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 0px #FFF;
-}
-
-h2 {
-  
-  color: #000000;
-  font-size: .95em;
-  font-family: GloberHeavy;
-  text-shadow: 1px 1px 0px #FFF;
-  margin: 40px 0px 10px 0px;
-}
-
-h3 {
-  
-  color: #FFCC38;
-  font-size: .95em;
-  font-family: GloberHeavy;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 0px #FFF;
-  margin: 40px 0px 10px 0px;
-}
-
-h5 {
-  
-  color: #536C6C;
-  font-size: .8em;
-  font-family: GloberHeavy;
-  text-shadow: 1px 1px 0px #FFF;
-  margin: 20px 0px 10px 22px;
-}
-
-p, q { /* .8em because [q] is NOT the child [p]  */
-  
-  color: #000000;
-  font-size: .8em;
-  font-family: GloberBook;
-  text-shadow: 1px 1px 0px #FFF;
-  margin: 2.5px 0px 2.5px 22px;
 }
 
 p > q {
   
   font-size: 1em; /* 1em == .8em because [q] is the child of [p]  */
-  margin: 2.5px 0px;
 }
 
 a {
-  
+
   text-decoration: none;
-  font-family: GloberBook;
-  text-shadow: 1px 1px 0px #FFF;
-  color: #000000;
+}
+
+li > a {
+
+  font-size: 1em;
 }
 
 li {
-  
-  color: #000000;
-  font-size: .8em;
-  font-family: GloberBook;
+
   margin: 2.5px 0px;
 }
-
 
 a:hover {
   
@@ -80,36 +79,40 @@ a:hover {
   text-shadow: 1px 1px 0px #FFF;
 }
 
+.color-1, .color-2, .color-3, .pattern-1 {
+
+  width: 40px;
+  height: 40px;
+}
+
 .color-1 {
   
   background: #FFCC38;
-  width: 40px;
-  height: 40px;
-  margin: 2.5px 0px 2.5px 22px;
 }
 
 .color-2 {
   
   background: #536C6C;
-  width: 40px;
-  height: 40px;
-  margin: 2.5px 0px 2.5px 22px;
 }
 
 .color-3 {
   
   background: #000000;
-  width: 40px;
-  height: 40px;
-  margin: 2.5px 0px 2.5px 22px;
 }
 
 .pattern-1 {
 
-  width: 40px;
-  height: 40px;
-  margin: 2.5px 0px 2.5px 22px;
   border: 1px solid;
+}
+
+.banner img, .logo, nav li, footer li {
+
+  display: inline;
+}
+
+.banner, .logo, nav ul {
+
+  float: center;
 }
 
 .banner img {
@@ -119,56 +122,28 @@ a:hover {
 
 .logo {
 
-    margin: 5px 0px 0px 30px;
-    padding: 0px 0px 20px 0px;
-}
-
-nav ul {
-
-  margin: -30px -15px 0px -15px;
-  padding: 15px 0px;
+  padding: 0 0 15px 0;
 }
 
 nav li {
 
   font-size: 1em;
-  font-family: GloberHeavy;
-  display: inline;
   text-align: center;
 }
 
 nav a {
 
-  color: #536C6C;
   margin: 0px 15px;
-  text-transform: lowercase;
 }
 
 .quote h2 {
-
-  text-transform: uppercase;
+  
+  color: #000000;
 }
 
 .quote q {
 
   font-style: italic;
-  text-transform: lowercase;
-}
-
-footer ul {
-
-  margin: 15px 0px 0px -15px;
-  padding: 15px 0px;
-}
-
-footer li {
-
-  display: inline;
-}
-
-footer h2 {
-
-  margin: -25px 0px 0px 140px;
 }
 
 footer img {
