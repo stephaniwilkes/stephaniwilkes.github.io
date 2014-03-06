@@ -1,7 +1,9 @@
 body {
   
   background: url("../img/bg/bg-1.png");
-  margin: 50px;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
   text-shadow: 1px 1px 0px #FFF;
 }
 
@@ -67,16 +69,80 @@ li > a {
   font-size: 1em;
 }
 
-li {
-
-  margin: 2.5px 0px;
-}
-
 a:hover {
   
   color: #FFCC38;
   font-family: GloberLight;
   text-shadow: 1px 1px 0px #FFF;
+}
+
+nav li, footer li, footer h2 {
+
+  display: inline;
+}
+
+.banner img[alt*="Stephani"] {
+
+  border-radius: 25%;
+}
+
+.banner img[alt*="Logo"] {
+
+  margin: 0 0 5px 15px;
+}
+
+.banner {
+
+  margin-bottom: 50px;
+}
+
+nav ul {
+
+  margin-left: -15px;
+  padding: 0px;
+}
+
+nav li {
+
+  font-size: 1em;
+  text-align: center;
+  padding: 0px 15px;
+}
+
+.quote h2 {
+  
+  color: #000000;
+}
+
+.quote q {
+
+  font-style: italic;
+}
+
+footer ul {
+
+  padding-left: 0px;
+}
+
+footer li {
+
+  margin: 0px;
+}
+
+footer h2 {
+
+  margin: 0px;
+}
+
+footer img {
+
+  padding: 5px;
+  border-radius: 95%;
+}
+
+footer img:hover {
+
+  background: #FFCC38;
 }
 
 .color-1, .color-2, .color-3, .pattern-1 {
@@ -103,56 +169,4 @@ a:hover {
 .pattern-1 {
 
   border: 1px solid;
-}
-
-.banner img, .logo, nav li, footer li {
-
-  display: inline;
-}
-
-.banner, .logo, nav ul {
-
-  float: center;
-}
-
-.banner img {
-
-  border-radius: 25%;
-}
-
-.logo {
-
-  padding: 0 0 15px 0;
-}
-
-nav li {
-
-  font-size: 1em;
-  text-align: center;
-}
-
-nav a {
-
-  margin: 0px 15px;
-}
-
-.quote h2 {
-  
-  color: #000000;
-}
-
-.quote q {
-
-  font-style: italic;
-}
-
-footer img {
-
-  padding: 5px;
-  border-radius: 95%;
-}
-
-footer img:hover {
-
-  background: #FFCC38;
 }
