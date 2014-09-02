@@ -43,6 +43,8 @@ h5, nav a {
 p, q, a, li {
 
   font-family: GloberBook;
+  margin-bottom: -5px;
+  margin-top: 10px;
 }
 
 nav a, .quote q {
@@ -55,9 +57,19 @@ h1 {
   font-size: 2em;
 }
 
+h5 {
+  
+  margin-bottom: 15px;
+}
+
 p > q {
   
   font-size: 1em; /* 1em == .8em because [q] is the child of [p]  */
+}
+
+p > a {
+
+  font-weight: bold;
 }
 
 a {
@@ -68,6 +80,7 @@ a {
 li > a {
 
   font-size: 1em;
+  font-weight: bold;
 }
 
 a:hover {
@@ -87,14 +100,12 @@ nav li, footer li, footer h2 {
   border-radius: 25%;
 }
 
-/* Icon
-
 .banner img[alt*="Logo"] {
 
-  margin: 0 0 5px 15px;
+  margin-left: -2%;
+  margin-bottom: 5%;
 }
 
- */
 
 nav ul {
 
@@ -118,7 +129,6 @@ nav img {
 nav img:hover {
 
   background: #FFCC38;
-  border-radius: 95%;
 }
 
 .quote h2 {
@@ -134,6 +144,7 @@ nav img:hover {
 footer ul {
 
   padding-left: 0px;
+  margin-top: 5%;
 }
 
 footer li {
