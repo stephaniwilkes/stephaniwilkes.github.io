@@ -137,6 +137,9 @@ nav img {
 nav img:hover {
 
   background: #FFCC38;
+  border-radius: 95%;
+  padding: 15px;
+  transition: all .5s ease;
 }
 
 .quote h2 {
