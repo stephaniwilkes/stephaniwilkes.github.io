@@ -3,7 +3,8 @@ body {
   background: url("../img/bg/bg-1.png");
   margin-left:auto;
   margin-right:auto;
-  width:70%;
+  margin-top: 5%;
+  width:50%;
   text-shadow: 1px 1px 0px #FFF;
 }
 
@@ -20,7 +21,7 @@ h1, h3, .quote h2 {
 
 h2, h3, h5, nav li {
   
-  font-size: .95em;
+  font-size: 1.25em;
   font-family: GloberHeavy;
 }
 
@@ -31,7 +32,7 @@ h2, p, q, a, li {
 
 h5, p, q, a, li {
 
-  font-size: .8em;
+  font-size: 1em;
 }
 
 h5, nav a {
@@ -86,15 +87,14 @@ nav li, footer li, footer h2 {
   border-radius: 25%;
 }
 
+/* Icon
+
 .banner img[alt*="Logo"] {
 
   margin: 0 0 5px 15px;
 }
 
-.banner {
-
-  margin-bottom: 50px;
-}
+ */
 
 nav ul {
 
@@ -107,6 +107,18 @@ nav li {
   font-size: 1em;
   text-align: center;
   padding: 0px 15px;
+}
+
+nav img {
+
+  width: 32px;
+  height: 32px;
+}
+
+nav img:hover {
+
+  background: #FFCC38;
+  border-radius: 95%;
 }
 
 .quote h2 {
