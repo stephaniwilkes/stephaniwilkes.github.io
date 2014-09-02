@@ -100,14 +100,14 @@ nav li, footer li, footer h2 {
   display: inline;
 }
 
-.banner img[alt*="Logo"] {
+.banner img[alt*="Wilkes' Technicalo"] {
 
   border-radius: 25%;
   width: 100%;
   height: 100%;
 }
 
-.banner img[alt*="Logo"] {
+.banner img[alt*="Wilkes' Technical"] {
 
   margin-left: -2%;
   margin-bottom: 5%;
@@ -175,6 +175,7 @@ footer img:hover {
 
   background: #FFCC38;
 }
+
 
 .color-1, .color-2, .color-3, .pattern-1 {
 
