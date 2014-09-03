@@ -132,14 +132,14 @@ nav img {
 
   width: 32px;
   height: 32px;
+  transition: all 1s ease;
 }
 
 nav img:hover {
 
   background: #FFCC38;
   border-radius: 95%;
-  padding: 15px;
-  transition: all .5s ease;
+  padding: 5px;
 }
 
 .quote h2 {
