@@ -4,7 +4,7 @@ body {
   margin-left:auto;
   margin-right:auto;
   margin-top: 5%;
-  width:50%;
+  width: 80%;
   text-shadow: 1px 1px 0px #FFF;
 }
 
@@ -84,7 +84,7 @@ a {
 
 ul {
 
-  padding-left: 15px;
+  padding-left: 25px;
 }
 
 li > a {
@@ -108,7 +108,7 @@ nav li, footer li, footer h2 {
 .banner img[alt*="Wilkes' Technical"] {
 
   border-radius: 25%;
-  width: 100%;
+  width: 75%;
   margin-left: -2%;
   margin-bottom: 5%;
 }
@@ -117,7 +117,7 @@ nav ul {
 
   margin-left: -15px;
   padding: 0px;
-  width: 70%;
+  width: 100%;
 }
 
 nav li {
@@ -127,18 +127,17 @@ nav li {
   padding: 0px 15px;
 }
 
-nav img {
+nav img, footer img {
 
   width: 32px;
   height: 32px;
+  padding: 5px;
+  border-radius: 95%;
   transition: all 1s ease;
 }
-
-nav img:hover {
+nav img:hover, footer img:hover {
 
   background: #FFCC38;
-  border-radius: 95%;
-  padding: 20px;
 }
 
 .quote h2 {
@@ -171,11 +170,6 @@ footer img {
 
   padding: 5px;
   border-radius: 95%;
-}
-
-footer img:hover {
-
-  background: #FFCC38;
 }
 
 
