@@ -4,7 +4,7 @@ body {
   margin-left:auto;
   margin-right:auto;
   margin-top: 5%;
-  width: 80%;
+  width: 75%;
   text-shadow: 1px 1px 0px #FFF;
 }
 
@@ -93,6 +93,12 @@ li > a {
   font-weight: bold;
 }
 
+.portfolio li, .portfolio ul {
+
+  list-style: none;
+  padding-left: 0px;
+}
+
 a:hover {
   
   color: #FFCC38;
@@ -124,7 +130,7 @@ nav li {
 
   font-size: 1em;
   text-align: center;
-  padding: 0px 15px;
+  padding: 0px 10px;
 }
 
 nav img, footer img {
@@ -132,7 +138,6 @@ nav img, footer img {
   width: 32px;
   height: 32px;
   padding: 5px;
-  border-radius: 95%;
   transition: all 1s ease;
 }
 nav img:hover, footer img:hover {
@@ -166,12 +171,7 @@ footer h2 {
   margin: 0px;
 }
 
-footer img {
-
-  padding: 5px;
-  border-radius: 95%;
-}
-
+/* Style Guide Styling
 
 .color-1, .color-2, .color-3, .pattern-1 {
 
@@ -199,8 +199,10 @@ footer img {
   border: 1px solid;
 }
 
-/* Gallery Styling */
-/* referenced: http://tympanus.net/codrops/2014/03/05/simple-stack-effects/ */
+ */
+
+
+/* Gallery Styling
 
 .gallery {
 
@@ -229,3 +231,6 @@ footer img {
   border: 15px solid #000;
   vertical-align: center;
 }
+
+ */
+ /* referenced: http://tympanus.net/codrops/2014/03/05/simple-stack-effects/ */
