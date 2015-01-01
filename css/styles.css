@@ -93,11 +93,6 @@ li > a {
   font-weight: bold;
 }
 
-.portfolio li, .portfolio ul {
-
-  list-style: none;
-  padding-left: 0px;
-}
 
 a:hover {
   
@@ -155,6 +150,12 @@ nav img:hover, footer img:hover {
   font-style: italic;
 }
 
+iframe {
+
+  width: 100%;
+  height: 920px;
+}
+
 footer ul {
 
   padding-left: 0px;
@@ -169,6 +170,12 @@ footer li {
 footer h2 {
 
   margin: 0px;
+}
+
+.portfolio li, .portfolio ul {
+
+  list-style: none;
+  padding-left: 0px;
 }
 
 /* Style Guide Styling
