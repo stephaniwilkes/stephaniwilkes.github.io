@@ -140,6 +140,11 @@ nav img:hover, footer img:hover {
   background: #FFCC38;
 }
 
+nav #current img {
+
+  background: #FFCC38;
+}
+
 .quote h2 {
   
   color: #000000;
