@@ -47,9 +47,25 @@ p, q, a, li {
   margin-top: 10px;
 }
 
+nav {
+
+  overflow: hidden;
+}
+
 nav a, .quote q {
 
   text-transform: lowercase;
+}
+
+nav li {
+
+  color: red;
+}
+
+nav p {
+
+  color: red;
+  margin: 0;
 }
 
 h1 {
@@ -121,7 +137,7 @@ nav ul {
   width: 100%;
 }
 
-nav li {
+nav li, nav p {
 
   font-size: 1em;
   text-align: center;
