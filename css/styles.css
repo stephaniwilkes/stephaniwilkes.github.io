@@ -4,7 +4,7 @@ body {
   margin-left:auto;
   margin-right:auto;
   margin-top: 5%;
-  width: 75%;
+  width: 95%;
   text-shadow: 2px 1px 0px #FFF;
 }
 
@@ -57,6 +57,7 @@ nav li > a > p {
 
   margin: 0px 0px 0px 0px; /* top | right | bottom | left  */
   padding: 0px;
+  font-size: 12px; 
   display: none;
 
 }
@@ -67,6 +68,7 @@ nav li:hover > a > p {
   padding: 0px;
   text-align: center;
   position: fixed;
+  font-size: 12px; 
   display: inline;
 
 }
@@ -99,6 +101,19 @@ p > q {
 p > a {
 
   font-weight: bold;
+}
+
+.intro img {
+
+  margin: 45px 0px -35px 0px; /* top | right | bottom | left  */
+  height: 3em;
+  width: 3em;
+}
+
+.intro h3 {
+
+  padding: 0px;
+  margin: -5px 0px 25px 65px; /* top | right | bottom | left  */
 }
 
 a {
@@ -134,7 +149,7 @@ nav li, footer li, footer h2 {
 .banner img[alt*="Wilkes' Technical"] {
 
   border-radius: 25%;
-  width: 75%;
+  width: 85%;
   margin-left: -2%;
   margin-bottom: 5%;
 }
@@ -185,6 +200,11 @@ iframe {
   height: 920px;
 }
 
+footer {
+
+  width: 100%;
+}
+
 footer ul {
 
   padding-left: 0px;
@@ -194,12 +214,13 @@ footer ul {
 footer li {
 
   margin: 0px;
-  padding: 0px 10px;
+  padding: 0px 2.5px;
 }
 
 footer h2 {
 
-  margin: 0px;
+  font-size: 12px;
+  margin: 0px 0px 0px 10px; /* top | right | bottom | left  */
 }
 
 .portfolio li, .portfolio ul {
