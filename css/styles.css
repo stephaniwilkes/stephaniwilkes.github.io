@@ -55,7 +55,7 @@ nav a, .quote q {
 
 nav li > a > p {
 
-  margin: -155px 0px 0px 0px; /* top | right | bottom | left  */
+  margin: 0px 0px 0px 0px; /* top | right | bottom | left  */
   padding: 0px;
   display: none;
 
@@ -63,7 +63,7 @@ nav li > a > p {
 
 nav li:hover > a > p {
 
-  margin: -155px 0px 0px 0px; /* top | right | bottom | left  */
+  margin: 45px 0px 0px 0px; /* top | right | bottom | left  */
   padding: 0px;
   text-align: center;
   position: fixed;
