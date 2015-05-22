@@ -8,18 +8,18 @@ body {
   text-shadow: 2px 1px 0px #FFF;
 }
 
-h1, h2, h3, h5, nav li {
+h1, h2, h3, h5, nav li, .intro h3 {
 
   font-family: Segoe UI Black, sans-serif;
 }
 
-h1, h3, .quote h2 {
+h1, h3, .quote h2, .intro h3 {
 
   color: #FFCC38;
   text-transform: uppercase;
 }
 
-h2, h3, h5, nav li {
+h2, h3, h5, nav li, .intro h3 {
   
   font-size: 1.25em;
   font-family: Segoe UI, sans-serif;
@@ -106,6 +106,7 @@ p > a {
 .intro img {
 
   margin: 45px 0px -35px 0px; /* top | right | bottom | left  */
+  padding: 10px 100px 10px 0px; /* top | right | bottom | left  */
   height: 3em;
   width: 3em;
 }
