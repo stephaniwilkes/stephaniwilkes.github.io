@@ -67,7 +67,7 @@ nav li:hover > a > p {
   margin: 45px 0px 0px 0px; /* top | right | bottom | left  */
   padding: 0px;
   text-align: center;
-  position: fixed;
+  position: absolute;
   font-size: 12px; 
   display: inline;
 
