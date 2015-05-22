@@ -5,12 +5,12 @@ body {
   margin-right:auto;
   margin-top: 5%;
   width: 75%;
-  text-shadow: 1px 1px 0px #FFF;
+  text-shadow: 2px 1px 0px #FFF;
 }
 
 h1, h2, h3, h5, nav li {
 
-  font-family: GloberHeavy;
+  font-family: Segoe UI Black, sans-serif;
 }
 
 h1, h3, .quote h2 {
@@ -22,7 +22,7 @@ h1, h3, .quote h2 {
 h2, h3, h5, nav li {
   
   font-size: 1.25em;
-  font-family: GloberHeavy;
+  font-family: Segoe UI, sans-serif;
 }
 
 h2, p, q, a, li {
@@ -42,14 +42,9 @@ h5, nav a {
 
 p, q, a, li {
 
-  font-family: GloberBook;
+  font-family: Segoe UI, sans-serif;
   margin-bottom: -5px;
   margin-top: 10px;
-}
-
-nav {
-
-  overflow: hidden;
 }
 
 nav a, .quote q {
@@ -57,15 +52,28 @@ nav a, .quote q {
   text-transform: lowercase;
 }
 
-nav li {
 
-  color: red;
+nav li > a > p {
+
+  margin: -155px 0px 0px 0px; /* top | right | bottom | left  */
+  padding: 0px;
+  display: none;
+
 }
 
-nav p {
+nav li:hover > a > p {
 
-  color: red;
-  margin: 0;
+  margin: -155px 0px 0px 0px; /* top | right | bottom | left  */
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  display: inline;
+
+}
+
+nav li, nav p, footer li, footer h2 {
+
+  display: inline;
 }
 
 h1 {
@@ -107,20 +115,21 @@ li > a {
 
   font-size: 1em;
   font-weight: bold;
+
 }
 
 
 a:hover {
   
-  color: #FFCC38;
-  font-family: GloberLight;
-  text-shadow: 1px 1px 0px #FFF;
+  font-family: Segoe UI Black, sans-serif;
+  text-shadow: 2px 1px 0px #FFF;
 }
 
 nav li, footer li, footer h2 {
 
   display: inline;
 }
+
 
 .banner img[alt*="Wilkes' Technical"] {
 
@@ -149,7 +158,6 @@ nav img, footer img {
   width: 32px;
   height: 32px;
   padding: 5px;
-  transition: all .5s ease;
 }
 nav img:hover, footer img:hover {
 
@@ -186,6 +194,7 @@ footer ul {
 footer li {
 
   margin: 0px;
+  padding: 0px 10px;
 }
 
 footer h2 {
