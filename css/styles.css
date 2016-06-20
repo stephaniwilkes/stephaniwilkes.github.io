@@ -103,6 +103,21 @@ p > a {
   font-family: Segoe UI Semibold, sans-serif;
 }
 
+.research  a > p:nth-child(1) {
+
+  color: #FFFFFF;
+  text-shadow: none;
+  background: #FFCC38;
+  padding: 10px 0px 10px 0px;  /* top | right | bottom | left  */
+}
+
+.research  a > p:nth-child(1):hover {
+
+  color: #000000;
+  text-shadow: #000000;
+  background: none;
+}
+
 .summary  p:nth-child(even) {
 
   margin-top: 20px;  
