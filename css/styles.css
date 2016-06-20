@@ -100,7 +100,18 @@ p > q {
 
 p > a {
 
+  font-family: Segoe UI Semibold, sans-serif;
+}
+
+.summary  p:nth-child(even) {
+
+  margin-top: 20px;  
   font-weight: bold;
+}
+
+.summary  p:nth-child(odd) {
+
+    margin-top: 20px;  
 }
 
 .intro img {
