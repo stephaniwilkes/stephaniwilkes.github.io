@@ -5,7 +5,6 @@ body {
   margin-right:auto;
   margin-top: 5%;
   width: 95%;
-  text-shadow: 2px 1px 0px #FFF;
 }
 
 h1, h2, h3, h5, nav li, .intro h3 {
@@ -17,6 +16,8 @@ h1, h3, .quote h2, .intro h3 {
 
   color: #FFCC38;
   text-transform: uppercase;
+  text-shadow: 1px .5px 0px #000000;
+
 }
 
 h2, h3, h5, nav li, .intro h3 {
